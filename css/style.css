@@ -4,6 +4,10 @@
   top: 0;
 }
 
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   max-width: 1140px;
   margin: auto;
@@ -26,6 +30,41 @@
     padding: 0 20px;
   }
 }
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Thin.eot");
+  src: url("../fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.eot");
+  src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.eot");
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.eot");
+  src: url("../fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black.woff") format("woff"), url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
 .promo {
   padding: 39px 0 62px 0;
   height: 800px;
@@ -43,10 +82,8 @@
   line-height: 28px;
   text-align: center;
   opacity: 0.8;
-  font-family: "Roboto", sans-serif;
 }
 .promo_text span {
-  font-family: "Roboto-Black", sans-serif;
   color: #f9bf3b;
 }
 .promo_btn {
@@ -59,7 +96,6 @@
   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
   color: #ffffff;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
-  font-family: "Roboto Condensed";
   cursor: pointer;
   font-size: 21px;
   font-weight: 400;
@@ -78,7 +114,6 @@
   text-transform: uppercase;
   text-align: center;
   margin-top: 14px;
-  font-family: "Roboto", sans-serif;
 }
 
 h2.title {
@@ -88,19 +123,17 @@ h2.title {
 .title {
   color: #f9bf3b;
   font-size: 41px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Roboto-Black", sans-serif;
 }
 .title_big {
   margin-top: 21px;
   color: #ffffff;
   font-size: 80px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Roboto-Black", sans-serif;
 }
 
 .more {
@@ -108,7 +141,6 @@ h2.title {
 }
 .more_text {
   color: #ffffff;
-  font-family: "Roboto - Thin";
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -131,7 +163,6 @@ h2.title {
   min-height: 604px;
 }
 .waiting_header {
-  font-family: Roboto;
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
@@ -147,7 +178,6 @@ h2.title {
 .waiting_subheader {
   margin-top: 17px;
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 23px;
   font-weight: 400;
   text-align: center;
@@ -167,7 +197,6 @@ h2.title {
 .waiting_descr {
   margin-top: 29px;
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -180,7 +209,6 @@ h2.title {
 .optimization_title {
   margin-left: 391px;
   color: #299cbd;
-  font-family: "Roboto-Black", sans-serif;
   font-size: 29px;
   font-weight: 400;
   text-transform: uppercase;
@@ -192,12 +220,10 @@ h2.title {
   font-size: 17px;
   line-height: 27px;
   font-weight: 300;
-  font-family: "Roboto-Light", sans-serif;
   font-weight: 300;
 }
 .optimization_text span {
   font-weight: 700;
-  font-family: "Roboto-Black", sans-serif;
 }
 .optimization_img {
   position: absolute;
@@ -236,7 +262,6 @@ h2.title {
   margin-top: 25px;
   text-align: center;
   color: #efefef;
-  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 300;
   line-height: 20px;
@@ -253,7 +278,6 @@ h2.title {
 }
 .present_text {
   color: #4a4a4a;
-  font-family: "Roboto", sans-serif;
   margin-top: 42px;
   font-size: 30px;
   font-weight: 400;
@@ -272,7 +296,6 @@ h2.title {
 .fWebinar_title {
   text-align: center;
   margin-top: 37px;
-  font-family: "Roboto", sans-serif;
   color: #252525;
   font-size: 30px;
   font-weight: 400;
@@ -281,7 +304,6 @@ h2.title {
 .fWebinar_subtitle {
   color: #299cbd;
   margin-top: 30px;
-  font-family: "Roboto-Black", sans-serif;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
@@ -290,7 +312,6 @@ h2.title {
 .fWebinar_text {
   color: #4a4a4a;
   margin-top: 25px;
-  font-family: "Roboto", sans-serif;
   font-size: 23px;
   font-weight: 400;
   line-height: 20px;
@@ -309,7 +330,6 @@ h2.title {
 }
 .footer_link a {
   color: #888888;
-  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -318,7 +338,6 @@ h2.title {
 .footer_tel {
   margin-top: 5px;
   color: #888888;
-  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
