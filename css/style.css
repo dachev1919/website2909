@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 930px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.promo {
+  padding: 39px 0 62px 0;
+  height: 800px;
+  background: url("../img/bg/header.png") center center/cover no-repeat;
+}
+.promo h1 {
+  margin-top: 53px;
+}
+.promo_text {
+  margin-top: 23px;
+  padding: 0 13px;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  opacity: 0.8;
+  font-family: "Roboto", sans-serif;
+}
+.promo_text span {
+  font-family: "Roboto-Black", sans-serif;
+  color: #f9bf3b;
+}
+.promo_btn {
+  display: block;
+  margin: 73px auto 0;
+  width: 313px;
+  height: 72px;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+  border: 4px solid rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  color: #ffffff;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+  font-family: "Roboto Condensed";
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.logo_img {
+  display: block;
+  margin: 0 auto;
+}
+.logo_text {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2.title {
+  margin-top: 30px;
+}
+
+.title {
+  color: #f9bf3b;
+  font-size: 41px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto-Black", sans-serif;
+}
+.title_big {
+  margin-top: 21px;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto-Black", sans-serif;
+}
+
+.more {
+  margin-top: 55px;
+}
+.more_text {
+  color: #ffffff;
+  font-family: "Roboto - Thin";
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.8;
+}
+.more_img {
+  cursor: pointer;
+  display: block;
+  margin: 13px auto 0;
+}
+.more_img:hover {
+  opacity: 0.6;
+}
+
+.waiting {
+  padding-top: 85px;
+  padding-bottom: 75px;
+  background-color: #efefef;
+  min-height: 604px;
+}
+.waiting_header {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #252525;
+}
+.waiting_divider {
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+  margin: 18px auto 0;
+}
+.waiting_subheader {
+  margin-top: 17px;
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+.waiting_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.waiting_item {
+  width: 339px;
+  text-align: center;
+}
+.waiting_img {
+  width: 100%;
+}
+.waiting_descr {
+  margin-top: 29px;
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.optimization {
+  min-height: 550px;
+  padding: 102px 0 107px 0;
+}
+.optimization_title {
+  margin-left: 391px;
+  color: #299cbd;
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 29px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.optimization_text {
+  margin-left: 391px;
+  margin-top: 25px;
+  color: #4a4a4a;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  font-family: "Roboto-Light", sans-serif;
+  font-weight: 300;
+}
+.optimization_text span {
+  font-weight: 700;
+  font-family: "Roboto-Black", sans-serif;
+}
+.optimization_img {
+  position: absolute;
+  z-index: -1;
+  top: -48px;
+  left: -240px;
+}
+
+.finish {
+  min-height: 447px;
+  padding: 86px 0 79px 0;
+  background: url("../img/bg/finish.png") center center/cover no-repeat;
+}
+.finish_header {
+  color: #ffffff;
+}
+.finish_wrapper {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+.finish_item {
+  width: 204px;
+}
+.finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 100%;
+}
+.finish_descr {
+  margin-top: 25px;
+  text-align: center;
+  color: #efefef;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.present {
+  min-height: 628px;
+  background-color: #efefef;
+  padding: 86px 0 87px 0;
+}
+.present_img {
+  display: block;
+  margin: auto;
+}
+.present_text {
+  color: #4a4a4a;
+  font-family: "Roboto", sans-serif;
+  margin-top: 42px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+}
+
+.fWebinar {
+  min-height: 515px;
+  padding: 89px 0 64px 0;
+}
+.fWebinar_img {
+  display: block;
+  margin: auto;
+}
+.fWebinar_title {
+  text-align: center;
+  margin-top: 37px;
+  font-family: "Roboto", sans-serif;
+  color: #252525;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.fWebinar_subtitle {
+  color: #299cbd;
+  margin-top: 30px;
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.fWebinar_text {
+  color: #4a4a4a;
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.footer {
+  min-height: 166px;
+  background-color: #1a1a1a;
+  padding: 61px 0 69px 0;
+}
+.footer_link {
+  display: flex;
+  justify-content: center;
+  color: #888888;
+}
+.footer_link a {
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: underline;
+}
+.footer_tel {
+  margin-top: 5px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
